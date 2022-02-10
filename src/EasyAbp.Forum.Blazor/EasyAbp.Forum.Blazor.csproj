@@ -9,6 +9,10 @@
     <ItemGroup>
         <PackageReference Include="Volo.Abp.AutoMapper" Version="$(AbpVersion)" />
         <PackageReference Include="Volo.Abp.AspNetCore.Components.Web.Theming" Version="$(AbpVersion)" />
+        <PackageReference Update="Fody" Version="6.6.0">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+        </PackageReference>
     </ItemGroup>
 
     <ItemGroup>
